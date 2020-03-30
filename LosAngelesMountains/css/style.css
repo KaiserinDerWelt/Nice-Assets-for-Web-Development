@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.HerosSpace{
+  width:100%;
+  height: 825px;
+  background-image:url("/Users/marianalicona/Desktop/LosAngelesMountains/img/Mountain-Landing.jpg");
+  background-size: cover;
+  font-family: Oswald;
+}
+
+.TitleOne{
+  text-align: center;
+  justify-content: center;
+  padding-top: 160px;
+  margin-bottom: -30px;
+  margin-left: -120px;
+  font-size: 90px;
+  font-weight: 670;
+  color: #4d4d4d;
+  font-family: Oswald;
+}
+
+.TitleTwo{
+  text-align: center;
+  justify-content: center;
+  padding-top: -110px;
+  margin-left: -110px;
+  font-size: 80px;
+  font-weight: 680;
+  color: #414F6B;
+  font-family: Oswald;
+}
+
+.container-fluid{
+  align-items: center;
+  align-content: center;
+}
+
+.S1{
+  width: auto;
+  height: 770px;
+  background-image: url("/Users/marianalicona/Desktop/LosAngelesMountains/img/Mountain-5.jpg");
+}
+.BigTitle{
+  font-size: 140px;
+  font-weight: 450;
+  font-family: Oswald;
+  color:rgba(65, 79, 107, 0.7);
+  opacity: 0.7;
+}
+.SmallTitle{
+  font-size: 40px;
+  margin-top: -3.1em !important;
+  font-family: Oswald;
+  color: #414F6B;
+}
+
+.BigTitleTwo{
+  font-size: 140px;
+  font-weight: 450;
+  margin-top: 100px;
+  font-family: Oswald;
+  color: #b0b4be;
+}
+.SmallTitleTwo{
+  font-size: 40px;
+  font-family: Oswald;
+  color: #414F6B;
+}
+
+.ArticleFix{
+  float: right;
+}
+
+.ParagraphOne{
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: -30px;
+  padding-bottom: 90px;
+  font-weight: lighter !important;
+}
+.ParagraphTwo{
+  justify-content: center;
+  margin-top: 40px;
+  font-weight: lighter !important;
+}
+
+.S2{
+  width: auto;
+  height: 825px;
+  background-image: url("/Users/marianalicona/Desktop/LosAngelesMountains/img/Mountain-3.jpg");
+  border-color: blue;
+}
+
+.logo{
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+.navigation-bar{
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.navigation-bar a {
+  float: right;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.Container{
+  padding-top: 25px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.HeaderWhite{
+  background-color: #FFFFFF;
+  width: auto;
+  height: 70px;
+  text-decoration: underline;
+  color: #b0b4be;
+  font-family: Oswald;
+}
+.HeroText{
+  color: #FFFFFF !important;
+  text-decoration: underline;
+}
+
+.S1Text{
+  color: #b0b4be;
+  text-decoration: underline;
+}
+.WrapperTwo{
+  background-color: #FFFFFF;
+  width: auto;
+  height: 160px;
+  padding-bottom: 100px;
+}
+
+.row-article{
+}
+
+.WrapperBlue{
+  width:auto;
+  background-color: #414F6B;
+  margin-top: 1px;
+  margin-bottom: 60px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-family: Oswald;
+}
+.btn-zone{
+  margin-left: 135px;
+}
+.tab-btn-One{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.tab-btn-Two{
+  padding-right: 25px;
+  padding-left: 25px;
+    color: #b0b4be;
+}
+
+.tab-btn-Two a{
+    color: #b0b4be !important;
+}
+
+
+
+.BoardTitle{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  font-family: Oswald;
+  color: #414F6B;
+}
+
+.Container-Board{
+  background-color: #FFFFFF;
+  width: 350px;
+  height: 245px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 110px;
+  opacity: 0.8;
+}
+.Wrapper-UniversalFooter{
+  background-color: #414F6B;
+  height: 75px;
+}
+h5{
+float: right;
+color:  #b0b4be;
+opacity: 0.6;
+font-size: 12px;
+font-family: Oswald;
+font-weight: normal !important;
+padding-top: 30px;
+padding-bottom: 25px;
+padding-right: 100px;
+text-transform: uppercase;
+}
+
+.Carousel .wrapper-slider {
+  padding: 1.5em 0;
+  text-align: center;
+  align-self: flex-end;
+}
+.Inner-Slider{
+    background: rgba(65, 79, 107, 0.7);
+    height: 180px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 1px;
+    justify-content: center;
+
+}
+.Inner-Slider img{
+  padding-left: 10px;
+}
+.Box{
+padding-top: 200px;
+}
+
+.tab-btn-One{
+  background-color: #b0b4be;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #414F6B;
+
+}
